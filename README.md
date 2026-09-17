@@ -1,4 +1,19 @@
-# ZERO v0.3
-Rompicapo PWA 5×5 basato su una regola binaria: ogni tocco inverte la casella scelta e le quattro ortogonali. Obiettivo: spegnere tutto.
+# ZERO
 
-I primi livelli sono costruiti per insegnare la meccanica (1, 2, 3... mosse di scramble). I livelli successivi sono sempre risolvibili perché generati applicando mosse valide a una griglia spenta. Include undo, restart e solver Lights Out per gli indizi.
+Rompicapo PWA minimalista.
+
+## Regola
+Tocca una luce: si invertono quella luce e le quattro adiacenti.  
+Obiettivo: spegnerle tutte.
+
+## PWA
+- installabile
+- offline
+- icone Android / maskable / iOS
+- service worker con aggiornamento cache
+- nessuna dipendenza esterna
+- nessun server applicativo richiesto
+
+Versione: 0.4.0
+
+Autore: Alessandro Pezzali
